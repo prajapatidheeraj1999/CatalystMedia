@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+#imagetext {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  z-index: 2;
+}
+
+#imagetext h1{
+  color: #FFF;
+font-family: Nunito Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+#imagetext p{
+  color: #FFF;
+font-family: Nunito Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: -40px;
+}
+#imagetext button{
+  color: #FFF;
+font-family: Nunito Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: white;
+background-color: #ca4022;
+padding: 10px;
+border-radius: 10px;
+border: none;
+
+}

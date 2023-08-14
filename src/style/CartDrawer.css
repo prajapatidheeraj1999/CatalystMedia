@@ -1,0 +1,51 @@
+.cart-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .drawer {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s;
+  }
+  
+  .open {
+    right: 0;
+  }
+  
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cancel-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #aaa;
+  }
+  
+  .cart-items {
+    padding: 10px;
+  }
+  
+  .cart-items p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
